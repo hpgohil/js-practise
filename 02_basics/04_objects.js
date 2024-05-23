@@ -28,3 +28,16 @@ const obj5 = {...obj1, ...obj2}
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
+//Object Destructuring
+const course = {
+    couserName: "JS tutorial",
+    couseFee : '999',
+    courseInstructor: "Hitesh"
+}
+
+const {courseInstructor} = course;
+// console.log(courseInstructor);
+
+const {courseInstructor: instructor} = course;
+// console.log(instructor);
+
