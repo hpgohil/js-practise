@@ -41,5 +41,3 @@ function handleArray(anyArr) {
 
 // console.log(myArr);
 // handleArray(myArr);
-
-
